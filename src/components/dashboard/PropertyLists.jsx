@@ -12,7 +12,7 @@ function PropertyList({ filteredProperties }) {
                 {filteredProperties.map((property) => (
                         <div 
                             key={property.id}
-                            className='bg-[#ffffff] border- border-[#ff9d2d] w-[24rem] h-[20rem] rounded-xl shadow-md flex flex-col overflow-hidden'
+                            className='bg-[#ffffff] border-2 border-[#ff9d2d] w-[24rem] h-[20rem] rounded-xl shadow-md flex flex-col overflow-hidden'
                         >
                             <img src={property.image}
                                 className='h-48 shadow-md'
